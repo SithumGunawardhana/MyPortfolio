@@ -1,7 +1,183 @@
-h1{
-    color: red;
+body{
+    background: yellow;
+}
+header{
+
+    color: #e80505;
+    width: 100%;
+    top: 0;
+
 }
 
-h4{
-    color: tomato;
+header>nav>ul{
+    position: absolute;
+    right: 0;
+    /*top:15px*/
 }
+
+header>nav>ul>li{
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cover{
+    position: relative;
+    left: -240px;
+    top: -75px;
+    width: 85vw;
+    height: 105vh;
+}
+.sithum{
+    position: absolute;
+    left: 5%;
+    width: 25vw;
+    height: 32vh;
+    top:25%;
+}
+
+section>section>p.first{
+    position: absolute;
+    font-size: 280%;
+    right: 2%;
+    top:12%;
+    color: blue;
+    
+
+}
+section>section>p.secound{
+    position: absolute;
+    font-size: 220%;
+    right: 15%;
+    top:25%;
+    color: #4848d0;
+
+}
+
+.favorite_styled{
+    position: absolute;
+    right: 7%;
+    top: 50%;
+    width: 30%;
+    height: 10%;
+    color: white;
+    background: #e80505;
+    border-radius:   20px ;
+    font-size: 40px;
+}
+
+#follow{
+    position: absolute;
+    right: 12%;
+    font-size: 300%;
+    top: 60%;
+}
+
+section>section>div:nth-child(2)>div{
+    display: inline-block;
+    position: relative;
+    left: 62%;
+    top: -270px;
+
+
+
+
+}
+section>section>div:nth-child(2)>div>img{
+    width: 4vw;
+    height: 5vh;
+    margin: 10px;
+    position: relative;
+    top: 10px;
+
+}
+h1{
+    color: #e80505;
+    font-size: 50px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.aboutMe{
+    top: -100px;
+}
+
+#abboutP1{
+    font-size: 32.5px;
+    text-align: justify;
+   margin-right: 10%;
+    margin-left: 10%;
+}
+
+#abboutUl2{
+    font-size: 31px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 8%;
+    list-style-type: "";
+
+
+}
+
+#abboutUl2>li{
+
+    margin-bottom: 3px;
+}
+.favorite_styled2{
+    position: relative;
+    left: 80%;
+    width: 12vw;
+    height: 6vh;
+    border-radius: 10px;
+    background: red;
+    color: white;
+    font-size: 30px;
+
+
+}
+
+.education_pic{
+    position: relative;
+    width:100px;
+    height:75px;
+    left: 3%;
+    top: 50px;
+}
+
+.education_pic2{
+    width:30px;
+    height:25px;
+    position: absolute;
+    right :30%;
+    width:100px;
+    height:75px;
+
+
+}
+
+h2{
+    text-align: center;
+    width: 250px;
+    position: relative;
+    top: -70px;
+    left:130px;
+    font-size: 20px;
+}
+
+article{
+    text-align: center;
+    position: relative;
+    top:-85px;
+    left:-240px;
+}
+
+h6{
+    position: relative;
+    left:90%;
+    width: 10px;
+    font-size: 20px;
+}
+
+
