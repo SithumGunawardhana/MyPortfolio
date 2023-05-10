@@ -166,7 +166,7 @@ h2{
     font-size: 20px;
 }
 
-article{
+section>article{
     text-align: center;
     position: relative;
     top:-85px;
@@ -179,5 +179,114 @@ h6{
     width: 10px;
     font-size: 20px;
 }
+section>nav>ul{
+    list-style-type: "";
+    margin-top: 100px;
+    margin-bottom: 200px;
+
+}
+
+section>nav>ul>li{
+    font-size: 25px;
+
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+section>nav>div{
+    position: absolute;
+    right: 10px;
+    top:333%;
+}
+
+section>nav>div>textarea{
+    margin: 28px;
+    width: 400px;
+    border-radius: 15px;
+    color: red;
+
+}
+
+#contactTA4{
+    height: 100px;
+}
+
+#logos{
+    position: relative;
+    width: 400px;
+    top:-80px;
 
 
+}
+#logos>img{
+    position: relative;
+    left: 100px;
+    margin: 10px;
+
+}
+
+#btnSend{
+    position: relative;
+    left: 60%;
+    top: -135px;
+    width: 10vw;
+    height: 6vh;
+    background: #e80505;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+
+}
+
+h4{
+    position: relative;
+    top:100px;
+    left: 100px;
+    margin: 30px;
+    width: 400px;
+}
+
+div#Tool>img {
+    position: relative;
+    margin-left: 40px;
+    width: 150px;
+    left: 280px;
+
+}
+
+
+div#language>img{
+    position: relative;
+    margin-left: 40px;
+    width: 150px;
+    left: 280px;
+
+}
+
+#project{
+
+    position: relative;
+    left: 400px;
+    width: 100px;
+}
+
+.text{
+    position: relative;
+    top: 20px;
+   left: 400px;
+    width: 200px;
+}
+
+#assignment>img{
+    position: relative;
+    margin-left: 150px;
+    margin-top: 10px;
+    width: 150px;
+    height: 150px;
+}
+#photos>img{
+    position: relative;
+    margin: 10px;
+    width: 300px;
+    height: 150px;
+}
