@@ -9,16 +9,21 @@ header{
 
 }
 
+header>nav>ul>li{
+    color: #e80505;
+}
+
 header>nav>ul{
     position: absolute;
     right: 0;
+
     /*top:15px*/
 }
 
 header>nav>ul>li{
     display: inline-block;
     margin-left: 0px;
-    margin-right: 25px;
+    margin-right: 55px;
     font-size: 25px;
     font-weight: bold;
 }
@@ -32,17 +37,17 @@ header>nav>ul>li{
 }
 .sithum{
     position: absolute;
-    left: 5%;
+    left: 13%;
     width: 25vw;
     height: 32vh;
-    top:25%;
+    top:26%;
 }
 
 section>section>p.first{
     position: absolute;
-    font-size: 280%;
+    font-size: 320%;
     right: 2%;
-    top:12%;
+    top:10%;
     color: blue;
     
 
@@ -70,9 +75,9 @@ section>section>p.secound{
 
 #follow{
     position: absolute;
-    right: 12%;
+    right: 17%;
     font-size: 300%;
-    top: 60%;
+    top: 67%;
 }
 
 section>section>div:nth-child(2)>div{
@@ -85,7 +90,7 @@ section>section>div:nth-child(2)>div{
 
 
 }
-section>section>div:nth-child(2)>div>img{
+section>section>div:nth-child(2)>div>a>img{
     width: 4vw;
     height: 5vh;
     margin: 10px;
@@ -161,16 +166,16 @@ h2{
     text-align: center;
     width: 250px;
     position: relative;
-    top: -70px;
-    left:130px;
+    top: -60px;
+    left:145px;
     font-size: 20px;
 }
 
 section>article{
     text-align: center;
     position: relative;
-    top:-85px;
-    left:-240px;
+    top:-80px;
+    left:-440px;
 }
 
 h6{
@@ -195,8 +200,8 @@ section>nav>ul>li{
 
 section>nav>div{
     position: absolute;
-    right: 10px;
-    top:333%;
+    right: 100px;
+    top:303%;
 }
 
 section>nav>div>textarea{
@@ -218,7 +223,7 @@ section>nav>div>textarea{
 
 
 }
-#logos>img{
+#logos>a>img{
     position: relative;
     left: 100px;
     margin: 10px;
@@ -227,7 +232,7 @@ section>nav>div>textarea{
 
 #btnSend{
     position: relative;
-    left: 60%;
+    left: 75%;
     top: -135px;
     width: 10vw;
     height: 6vh;
@@ -238,19 +243,20 @@ section>nav>div>textarea{
 
 }
 
-h4{
+h3{
     position: relative;
     top:100px;
     left: 100px;
     margin: 30px;
-    width: 400px;
+    width: 500px;
 }
 
 div#Tool>img {
     position: relative;
     margin-left: 40px;
-    width: 150px;
-    left: 280px;
+    width: 250px;
+    left: 400px;
+    height: 180px;
 
 }
 
@@ -258,35 +264,37 @@ div#Tool>img {
 div#language>img{
     position: relative;
     margin-left: 40px;
-    width: 150px;
-    left: 280px;
+    width: 250px;
+    left: 400px;
+    height: 180px;
 
 }
 
 #project{
 
     position: relative;
-    left: 400px;
+    left: 520px;
     width: 100px;
 }
 
 .text{
     position: relative;
-    top: 20px;
-   left: 400px;
+    top: 60px;
+   left: 620px;
     width: 200px;
+
 }
 
-#assignment>img{
+#assignment>a>img{
     position: relative;
     margin-left: 150px;
     margin-top: 10px;
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
 }
 #photos>img{
     position: relative;
     margin: 10px;
-    width: 300px;
-    height: 150px;
+    width: 450px;
+    height: 280px;
 }
