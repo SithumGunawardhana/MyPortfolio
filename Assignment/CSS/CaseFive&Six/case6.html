@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>case6</title>
+  <style>
+ section{
+  position: absolute;
+   width: 400px;
+   height: 300px;
+   display: grid;
+   border: 2px solid green;
+   grid-template-rows: repeat(3,1fr);
+   grid-template-columns: repeat(4,1fr);
+
+ }
+
+ section>div{
+
+   /*width: 100px;*/
+   /*height: 100px;*/
+ }
+
+ section>div:nth-child(1){
+   background: red;
+   grid-column: 1/3;
+   grid-row: 1/2;
+   /*grid-row: 1/3;*/
+ }
+ section>div:nth-child(2){background: blue;}
+ section>div:nth-child(3){ background: black;}
+ section>div:nth-child(4){background: brown;}
+ section>div:nth-child(5){background: yellow;}
+ section>div:nth-child(6){
+   background: deeppink;
+   grid-column: 2/4;
+   grid-row: 3/4;
+
+ }
+ section>div:nth-child(7){background: green;}
+ section>div:nth-child(8){background: orange;}
+ section>div:nth-child(9){
+   background: thistle;
+   grid-row: 1/4;
+   grid-column: 4/5;
+ }
+
+
+
+  </style>
+</head>
+<body>
+<section>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+  <div></div>
+</section>
+
+</body>
+</html>
