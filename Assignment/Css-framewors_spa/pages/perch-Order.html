@@ -4,8 +4,193 @@
     <meta charset="UTF-8">
     <title>Perch-Order</title>
     <meta  content="width=device-width initial-scale=1" name="viewport">
+    <link rel="stylesheet" href="../assest/css/bootstrap.css">
+
 </head>
 <body>
+<header>
 
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid " >
+
+            <a class="navbar-brand col-lg-8 p-2" href="#" >Order Form</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header bg-secondary">
+                    <h5 class="offcanvas-title"  id="offcanvasDarkNavbarLabel ">Super Market</h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body bg-dark" >
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3 ">
+                        <li class="nav-item">
+                            <a class="nav-link " href="http://localhost:63342/Css-framewors_spa/index.html?_ijt=6n53vdaf1i8ki5jcji7ha3sdf0&_ij_reload=RELOAD_ON_SAVE">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link" href="http://localhost:63342/Css-framewors_spa/pages/item.html">Customer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:63342/Css-framewors_spa/pages/item.html">Item</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link "  href="http://localhost:63342/Css-framewors_spa/pages/perch-Order.html">Order</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+</header>
+
+<br><br><br>
+<section>
+    <h2>Order details</h2>
+    <form class="row g-3">
+        <div class="col-md-4">
+            <label for="OI" class="form-label">Order Id</label>
+            <input type="text" class="form-control" id="OI" placeholder="">
+        </div>
+        <div class="col-md-4">
+            <label for="Date" class="form-label">Date</label>
+            <input type="text" class="form-control" id="Date" placeholder="">
+        </div>
+
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Customer Id</label>
+            <select id="inputState" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label for="CusName" class="form-label">Customer Name</label>
+            <input type="text" class="form-control" id="CusName" placeholder="">
+        </div>
+
+
+        <div class="col-md-4">
+            <label for="CusAddress" class="form-label">Address</label>
+            <input type="text" class="form-control" id="CusAddress" placeholder="">
+        </div>
+        <div class="col-md-4">
+            <label for="CusSalary" class="form-label">Salary</label>
+            <input type="text" class="form-control" id="CusSalary" placeholder="">
+        </div>
+
+    </form>
+</section>
+<br>
+<section>
+    <h2>Select Item</h2>
+
+
+    <form class="row g-3">
+
+
+
+        <div class="col-md-6">
+            <label for="inputState1" class="form-label">Item Code</label>
+            <select id="inputState1" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="Iname" class="form-label">Name</label>
+            <input type="text" class="form-control" id="IName" placeholder="">
+        </div>
+
+
+        <div class="col-md-6">
+            <label for="IPrice" class="form-label">Price</label>
+            <input type="text" class="form-control" id="IPrice" placeholder="">
+        </div>
+        <div class="col-md-6">
+            <label for="QOH" class="form-label">QONHand</label>
+            <input type="text" class="form-control" id="QOH" placeholder="">
+        </div>
+        <div class="col-md-5">
+            <label for="OQ" class="form-label">Order Quentity</label>
+            <input type="text" class="form-control" id="OQ" placeholder="">
+        </div>
+
+
+        <div class="col-12 d-i"   style="text-align: center">
+            <button type="submit" class="btn btn-primary">Add Item</button>
+        </div>
+
+    </form>
+</section>
+
+
+
+<section>
+    <br>
+    <table class="table table-dark table-striped">
+
+        <thead>
+        <tr>
+            <th scope="col">Item code</th>
+            <th scope="col">Item Name</th>
+            <th scope="col">Price</th>
+            <th scope="col">Quentity</th>
+            <th scope="col">Total</th>
+            <th scope="col">Delete</th>
+
+        </tr>
+        </thead>
+
+
+    </table>
+</section>
+
+
+
+<br>
+<section>
+
+
+    <h2>Billing </h2>
+
+    <form class="row g-3">
+
+        <div class="col-md-2">
+            <label for="STotal" class="form-label">Sub Total</label>
+            <input type="text" class="form-control" id="STotal" placeholder="">
+        </div>
+
+        <div class="col-md-2">
+            <label for="Discount" class="form-label">Discount</label>
+            <input type="text" class="form-control" id="Discount" placeholder="">
+        </div>
+        <div class="col-md-2">
+            <label for="Total" class="form-label">Total</label>
+            <input type="text" class="form-control" id="Total" placeholder="">
+        </div>
+        <div class="col-md-2">
+            <label for="Cash" class="form-label">Cash</label>
+            <input type="text" class="form-control" id="Cash" placeholder="">
+        </div>
+        <div class="col-md-2">
+            <label for="Balance" class="form-label">Balance</label>
+            <input type="text" class="form-control" id="Balance" placeholder="">
+        </div>
+
+
+
+    </form>
+
+
+
+</section>
+
+
+
+
+
+<script src="../assest/js/bootstrap.js"></script>
 </body>
 </html>

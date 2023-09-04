@@ -2,73 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22f5025d-c302-450e-9c07-577495aa9e3a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Css-framewors_spa.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/img/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/img/2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/img/super.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assest/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/customer.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/item.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/perch-Order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JS/InMemory-POS/spa/index2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Trsnsition/CaseOne/CaseOne.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Trsnsition/CaseOne/CaseOne/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Trsnsition/CaseOne/assest/imoji.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Trsnsition/CaseOne/caseOne.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Trsnsition/CaseTwo/CaseTwo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Trsnsition/CaseTwo/CaseTwo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS/InMemory-POS/spa/pages/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/InMemory-POS/spa/pages/customer.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JS/InMemory-POS/spa/pages/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../JS/InMemory-POS/spa/pages/item.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../assets/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../notes/Css/css.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../notes/Css/css.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/perch-Order.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/perch-Order.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +58,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693804638790</updated>
-      <workItem from="1693804640099" duration="12758000" />
+      <workItem from="1693804640099" duration="14946000" />
     </task>
     <servers />
   </component>
