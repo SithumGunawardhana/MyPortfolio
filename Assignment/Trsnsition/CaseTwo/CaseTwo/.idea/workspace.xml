@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c52baa03-c83e-447b-a061-bcf19d89335d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../JS/InMemory-POS/spa/index2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../CaseOne/CaseOne/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/InMemory-POS/spa/pages/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JS/InMemory-POS/spa/pages/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../JS/InMemory-POS/spa/pages/item.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../JS/InMemory-POS/spa/pages/item.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../notes/Css/css.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../notes/Css/css.docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Rk5HRzHXsdNm72EPd5U0Dg7LDt" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c52baa03-c83e-447b-a061-bcf19d89335d" name="Changes" comment="" />
+      <created>1687781151966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1687781151966</updated>
+      <workItem from="1687781153185" duration="3881000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -10,90 +10,6 @@ header{
 }
 
 
-/*header>nav>ul{*/
-/*    position: absolute;*/
-/*    right: 0;*/
-/*}*/
-
-/*header>nav>ul>li{*/
-/*    display: inline-block;*/
-/*    margin-left: 0px;*/
-/*    margin-right: 55px;*/
-/*    font-size: 160%;*/
-/*    font-weight: bold;*/
-/*}*/
-
-/*.cover{*/
-/*    position: relative;*/
-/*    left: -240px;*/
-/*    top: -75px;*/
-/*    width: 85vw;*/
-/*    height: 105vh;*/
-/*}*/
-
-/*.sithum{*/
-/*    position: absolute;*/
-/*    left: 13%;*/
-/*    width: 25vw;*/
-/*    height: 32vh;*/
-/*    top:26%;*/
-/*}*/
-
-/*section>section>p.first{*/
-/*    position: absolute;*/
-/*    font-size: 320%;*/
-/*    right: 2%;*/
-/*    top:10%;*/
-/*    color: blue;*/
-
-
-/*}*/
-/*section>section>p.secound{*/
-/*    position: absolute;*/
-/*    font-size: 220%;*/
-/*    right: 15%;*/
-/*    top:25%;*/
-/*    color: #4848d0;*/
-
-/*}*/
-
-/*.favorite_styled{*/
-/*    position: absolute;*/
-/*    right: 7%;*/
-/*    top: 50%;*/
-/*    width: 30%;*/
-/*    height: 10%;*/
-/*    color: white;*/
-/*    background: #e80505;*/
-/*    border-radius:   20px ;*/
-/*    font-size: 40px;*/
-/*}*/
-
-/*#follow{*/
-/*    position: absolute;*/
-/*    right: 17%;*/
-/*    font-size: 300%;*/
-/*    top: 67%;*/
-/*}*/
-
-/*section>section>div:nth-child(2)>div{*/
-/*    display: inline-block;*/
-/*    position: relative;*/
-/*    left: 62%;*/
-/*    top: -270px;*/
-
-
-
-
-/*}*/
-/*section>section>div:nth-child(2)>div>a>img{*/
-/*    width: 3vw;*/
-/*    height: 4vh;*/
-/*    margin: 10px;*/
-/*    position: relative;*/
-/*    top: 10px;*/
-
-/*}*/
 h1{
     color: #e80505;
     font-size: 50px;
@@ -105,22 +21,6 @@ h1{
     top: -100px;
 }
 
-#abboutP1{
-    font-size: 32.5px;
-    text-align: justify;
-   margin-right: 10%;
-    margin-left: 10%;
-}
-
-#abboutUl2{
-    font-size: 31px;
-    margin-left: 2%;
-    margin-right: 2%;
-    margin-top: 8%;
-    list-style-type: "";
-
-
-}
 
 #abboutUl2>li{
 
@@ -157,21 +57,7 @@ h1{
 
 }
 
-h2{
-    text-align: center;
-    width: 250px;
-    position: relative;
-    top: -60px;
-    left:145px;
-    font-size: 20px;
-}
 
-/*section>article{*/
-/*    text-align: center;*/
-/*    position: relative;*/
-/*    top:-80px;*/
-/*    left:-440px;*/
-/*}*/
 
 h6{
     position: relative;
@@ -194,11 +80,6 @@ section>nav>ul>li{
     margin-left: 30px;
 }
 
-/*section>nav>div{*/
-/*    position: absolute;*/
-/*    right: 100px;*/
-/*    top:303%;*/
-/*}*/
 
 section>nav>div>textarea{
     margin: 28px;
@@ -247,39 +128,6 @@ h3{
     width: 500px;
 }
 
-/*div#Tool>img {*/
-/*    position: relative;*/
-/*    margin-left: 40px;*/
-/*    width: 250px;*/
-/*    left: 400px;*/
-/*    height: 180px;*/
-
-/*}*/
-
-
-/*div#language>img{*/
-/*    position: relative;*/
-/*    margin-left: 40px;*/
-/*    width: 250px;*/
-/*    left: 400px;*/
-/*    height: 180px;*/
-
-/*}*/
-
-/*#project{*/
-
-/*    position: relative;*/
-/*    left: 520px;*/
-/*    width: 100px;*/
-/*}*/
-
-/*.text{*/
-/*    position: relative;*/
-/*    top: 60px;*/
-/*   left: 620px;*/
-/*    width: 200px;*/
-
-/*}*/
 
 #assignment>a>img{
     position: relative;
@@ -318,11 +166,155 @@ h3{
 
 
     @media all and (min-width: 768px) and (max-width: 1024px) {
+        .cover {
+            position: relative;
+            left: -20px;
+            top: -30px;
+            height: 80vh;
+            width: 50vw;
+        }
+
+        .sithum {
+            position: absolute;
+            left: 4%;
+            width: 27vw;
+            height: 30.5vh;
+            top: 27%;
+        }
+
+
+        header > nav > ul {
+            position: absolute;
+            right: 0;
+        }
+
+
+        header > nav > ul > li {
+            display: inline-block;
+            margin-left: 25px;
+            margin-right: 5px;
+            font-size: 150%;
+            font-weight: bold;
+        }
 
     }
+section > section > p.first {
+    position: absolute;
+    font-size: 45px;
+    right: 1%;
+    top: 14%;
+    /* left: 24%; */
+    color: blue;
+}
+section>section>p.secound {
+    position: absolute;
+    font-size: 35px;
+    right: 10%;
+    top: 25%;
+    color: #4848d0;
+}
+.favorite_styled {
+    position: absolute;
+    right: 9%;
+    top: 55%;
+    width: 20%;
+    height: 10%;
+    color: white;
+    background: #e80505;
+    border-radius: 20px;
+    font-size: 26px;
+
+}
+#follow {
+    position: absolute;
+    right: 12%;
+    font-size: 200%;
+    top: 65%;
+
+}
+
+section>section>div:nth-child(2)>div {
+    display: inline-block;
+    position: relative;
+    left: 71.5%;
+    top: -110px;
+}
 
 
-    @media all and (min-width: 1024px) and (max-width: 1440px) {
+section>section>div:nth-child(2)>div>a>img{
+    width: 3vw;
+    height: 4vh;
+    margin: 3px;
+    position: relative;
+    top: 10px;
+
+}
+
+section>article {
+    text-align: center;
+    position: relative;
+    top: -80px;
+    left: -237px;
+}
+
+section>nav>div {
+    position: absolute;
+    right: 100px;
+    top: 290%;
+}
+
+#abboutP1{
+    font-size: 24px;
+    text-align: justify;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#abboutUl2{
+    font-size: 23px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 8%;
+    list-style-type: "";
+
+
+}
+
+
+#AL{
+
+    text-align: right;
+    position:relative ;
+    left: 640px;
+    top: -35px;
+}
+
+#ALD{
+    top: -45px;
+    left: 325px;
+}
+
+
+
+
+h2{
+    text-align: center;
+    width: 250px;
+    position: relative;
+    top: -60px;
+    left:135px;
+    font-size: 18px;
+}
+
+#Ini{
+    position: absolute;
+    top: 168%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+    @media all and (min-width: 1025px) and (max-width: 1440px) {
 
 
         .cover {
@@ -453,8 +445,55 @@ h3{
 
         }
 
+        #abboutP1{
+            font-size: 32.5px;
+            text-align: justify;
+            margin-right: 10%;
+            margin-left: 10%;
+        }
 
+        #abboutUl2{
+            font-size: 31px;
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-top: 8%;
+            list-style-type: "";
+
+
+        }
+
+
+
+        #AL{
+
+            text-align: right;
+            position:relative ;
+            left: 970px;
+            top: -50px;
+        }
+
+        #ALD{
+            top: -65px;
+            left: 450px;
+        }
+
+        h2{
+            text-align: center;
+            width: 250px;
+            position: relative;
+            top: -60px;
+            left:215px;
+            font-size: 20px;
+        }
     }
+
+#Ini{
+    position: absolute;
+    top:200%;
+    right:0;
+    left: 0 ;
+    margin: auto
+}
 
 
 

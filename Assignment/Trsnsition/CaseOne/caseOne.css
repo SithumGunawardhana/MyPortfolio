@@ -1,0 +1,38 @@
+section{
+
+    width: 600px;
+    height: 700px;
+}
+
+section>div{
+    position: relative;
+    width: 200px;
+    height: 50px;
+    background: green;
+    margin-bottom: 20px;
+    left: -150px;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-property: all;
+    margin-top: 5px;
+
+
+}
+
+section>div:hover{
+    background: red;
+    left: -8px;
+    transition-duration: 1s;
+    transition-property: all;
+}
+
+
+section>div>img{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 10px;
+    margin: auto;
+    bottom: 0;
+}

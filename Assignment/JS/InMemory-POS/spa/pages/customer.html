@@ -74,12 +74,12 @@
                 </thead>
                 <tbody id="tblCustomer">
 
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
+<!--                <tr>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                    <td></td>-->
+<!--                </tr>-->
 
                 </tbody>
             </table>
@@ -90,57 +90,6 @@
 
 <script src="../assets/js/jquery-3.6.1.min.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>
-
-<script>
-    // document.getElementById("btnCustomer").addEventListener("click", function () {
-    //
-    //     let id = document.getElementById("txtCustomerID").value;
-    //     let name = document.getElementById("txtCustomerName").value;
-    //     let address = document.getElementById("txtCustomerAddress").value;
-    //     let salary = document.getElementById("txtCustomerSalary").value;
-    //
-    //     console.log(id,name,address,salary);
-    //     let tBody=document.getElementById("tblCustomer");
-    //    let tr= document.createElement("tr");
-    //
-    //    let col1= document.createElement("td");
-    //    let col2= document.createElement("td");
-    //    let col3= document.createElement("td");
-    //    let col4= document.createElement("td");
-    //
-    //     col1.textContent=id;
-    //     col2.textContent=name;
-    //     col3.textContent=address;
-    //     col4.textContent=salary;
-    //
-    //     tr.appendChild(col1);
-    //     tr.appendChild(col2);
-    //     tr.appendChild(col3);
-    //     tr.appendChild(col4);
-    //
-    //     tBody.appendChild(tr);
-    //
-    // });
-
-
-
-    // $("#btnCustomer").click(function () {
-    //     let id=$("#txtCustomerID").val();
-    //     let name=$("#txtCustomerName").val();
-    //     let address=$("#txtCustomerAddress").val();
-    //     let salary=$("#txtCustomerSalary").val();
-    //     let tBody=$("#tblCustomer").val();
-    //
-    //     let tr=$.create("tr");
-    //
-    //     let col1=$.create("td");
-    //     let col2=$.create("td");
-    //     let col3=$.create("td");
-    //     let col4=$.create("td");
-    //
-    //
-    // });
-</script>
 
 
 <script>
@@ -183,8 +132,6 @@
             let address=customerDB[i].Address;
             let salary=customerDB[i].Salary;
 
-
-
             let row=`<tr>
                         <td>${id}</td>
                         <td>${name}</td>
@@ -194,7 +141,7 @@
                         </tr>`
 
             $("#tblCustomer").append(row);
-
+            bindEvents();
 
         }
 
@@ -211,6 +158,47 @@
     // customer.name;
     // customer.age;
     // customer.married;
+
+    function bindEvents(){
+
+    $('#tblCustomer>tr').click(function () {
+        let id=$(this).children().eq(0).text();
+        let name=$(this).children().eq(1).text();
+        let address=$(this).children().eq(2).text();
+        let salary=$(this).children().eq(3).text();
+
+
+       $("#txtCustomerID").val(id);
+       $("#txtCustomerName").val(name);
+        $("#txtCustomerAddress").val(address);
+        $("#txtCustomerSalary").val(salary);
+
+
+    })
+    }
+
+    $("#btnCusDelete").click(function (){
+      let id= $("#txtCustomerID").val()
+      let response=  deleteCustomer(id);
+      if(response){
+          alert("delete ");
+      }else {
+          alert("Not delete");
+      }
+
+    })
+
+    function deleteCustomer(id){
+        for (let i=0;i<customerDB.length;i++){
+            if(customerDB[i].id=id){
+                customerDB.splice(i,1);
+                return true
+            }
+        }
+        return false;
+    }
+
+
 </script>
 </body>
 </html>
